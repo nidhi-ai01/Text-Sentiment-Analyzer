@@ -1,62 +1,55 @@
+# 🧠 Text Sentiment Analyzer
 
-\# 🧠 Text Sentiment Analyzer
+A simple and interactive web app that analyzes the **sentiment** of a given sentence using **TextBlob** and **Streamlit**. It classifies input text as **Positive**, **Negative**, or **Neutral** based on polarity scores.
 
+---
 
+## 🚀 Demo
 
-A simple web app that tells whether your sentence is \*\*Positive\*\*, \*\*Negative\*\*, or \*\*Neutral\*\* using NLP (Natural Language Processing).
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/your-username/Text-Sentiment-Analyzer/main/sentiment_app.py)
 
+> *(Replace the link above with your deployed app URL if you deploy to Streamlit Cloud)*
 
+---
 
-!\[Streamlit Screenshot](Positive.png)(Negative.png)
+## 📸 Screenshot
 
+![App Screenshot1](Positive.png) 
+![App Screenshot2](Negative.png) 
+---
 
+## 🛠️ Tech Stack
 
-\## 🚀 Features
+- **Python 3.11**
+- [TextBlob](https://textblob.readthedocs.io/en/dev/) — for NLP-based sentiment analysis
+- [Streamlit](https://streamlit.io/) — for building UI quickly
 
-\- Realtime text sentiment analysis
+---
 
-\- Emoji-based feedback
+## 📦 How to Run Locally
 
-\- Clean and interactive UI using Streamlit
+1. Clone the repository:
 
+```bash
+git clone https://github.com/nidhi-ai01/Text-Sentiment-Analyzer.git
+cd Text-Sentiment-Analyzer
 
+Install dependencies:
+pip install -r requirements.txt
 
-\## 🛠️ Built With
+Run the app:
+streamlit run sentiment_app.py
 
-\- Python 3.11
+ Example Inputs:
 
-\- \[TextBlob](https://textblob.readthedocs.io/en/dev/) – for NLP
-
-\- \[Streamlit](https://streamlit.io/) – for web interface
-
-
-
-\## 💡 How It Works
-
-The app uses TextBlob to calculate the \*\*polarity score\*\*:
-
-\- `> 0` → 😊 Positive
-
-\- `< 0` → 😠 Negative
-
-\- `= 0` → 😐 Neutral
-
-
-
-\## 🧪 How to Run
-
-
-
-1\. Clone the repo:
-
-&nbsp;  ```bash
-
-&nbsp;  git clone https://github.com/yourusername/sentiment-analyzer.git
-
-&nbsp;  cd sentiment-analyzer
+| Input Text                          | Sentiment   |
+| ----------------------------------- | ----------- |
+| "I love this app, it's amazing!"    | 😊 Positive |
+| "This is the worst experience ever" | 😠 Negative |
+| "It's okay, not good not bad."      | 😐 Neutral  |
 
 
 
-
-# Text-Sentiment-Analyzer
+ Show Your Support
+If you like this project, please ⭐ the repo to support my work!
 
