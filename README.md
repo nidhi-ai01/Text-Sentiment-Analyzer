@@ -1,3 +1,4 @@
+HEAD
 \# 🧠 Text Sentiment Analyzer
 
 
@@ -56,3 +57,6 @@ The app uses TextBlob to calculate the \*\*polarity score\*\*:
 
 
 
+
+# Text-Sentiment-Analyzer
+ e30cd46c72dd61285a3c2bfe08746d2b9baab2eb
