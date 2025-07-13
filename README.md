@@ -7,7 +7,7 @@ A simple web app that tells whether your sentence is \*\*Positive\*\*, \*\*Negat
 
 
 
-!\[Streamlit Screenshot](https://i.imgur.com/vHbYOyp.png)
+!\[Streamlit Screenshot](Positive.png)(Negative.png)
 
 
 
